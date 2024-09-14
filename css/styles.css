@@ -16,6 +16,7 @@ body {
     box-sizing: border-box;
 }
 .wrapper {
+    position: relative;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -56,10 +57,56 @@ body {
     border: none;
     border-radius: 8px;
     padding: 12px 24px;
-   
 }
-.logo {
-    padding-left: 89px;
-    padding-top: 34px;
+.goit-logo {
+   position: absolute;
+   top: 32px;
+   left: 0px;
+}
+.facts {
+    padding: 48px 0 100px 0;
+    text-align: center;
+}
+.facts-tryzub {
+    margin-bottom: 24px;
+}
+.facts-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin: 0 auto 32px auto;
+
+}
+.facts-dscr {
+    max-width: 772px;
+    margin: 0 auto 24px auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
+
+}
+
+.facts-item {
+    width: calc((100% /3) - (24px * 2)/3);
+ 
+}
+.facts-item-title {
+    margin: 0 auto 32px auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #1b1d1f;
+}
+.facts-item-descr {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
 
 }
