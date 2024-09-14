@@ -1,0 +1,65 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+.main-page  {
+    width: 100%;
+    background-color: linear-gradient(271deg, #a5deff 1.14%, #fcfefe 100%);
+    background-color: aquamarine;
+}
+.main-page-text-container {
+    border-radius: 40px;
+    background: #fff;
+    padding: 60px 60px 60px 60px;
+    box-sizing: border-box;
+}
+.wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+}
+
+.main-page-hello-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin: 0  auto 60px auto;
+}
+.main-page-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 112%;
+    color: #1b1d1f;
+    margin: 0 auto 24px auto;
+}
+
+.main-page-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin: 0 auto 32px auto;
+}
+.main-page-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    cursor: pointer;
+    background-color:#FF6B0A ;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+   
+}
+.logo {
+    padding-left: 89px;
+    padding-top: 34px;
+
+}
